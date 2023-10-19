@@ -13,14 +13,20 @@ const Connect = () => {
           </div>
         </div>
       </div>
-
       <div>
-        <div className="w-[560px] h-[610px] bg-[#2F3338] rounded-lg mt-3 flex justify-center">
-          <div className="flex text-white gap-20 w-[480px] h-[518px] bg-black">
-            <h2>Swap</h2>
-            <div className="w-[32px] h-[32px] bg-[#3F444E] rounded-md">
-
+        <div className="w-[560px] h-[610px] bg-[#2F3338] rounded-lg mt-3 ptb-5 flex justify-center">
+          <div className=" text-white w-[480px] h-[518px] bg-black my-auto ">
+            <div className="gap-20 flex justify-between ">
+            <p className="text-lg">Swap</p>
+            <div className="w-[32px] h-[32px] bg-[#3F444E] rounded-md"></div>
             </div>
+
+            <div>
+            <div className="w-[480px] h-[62px] rounded-lg bg-[#6F49FD] flex justify-center ">
+              <p className="text-white text-lg my-auto ">Connect Wallet</p>
+            </div>
+            </div>
+       
           </div>
         </div>
       </div>
