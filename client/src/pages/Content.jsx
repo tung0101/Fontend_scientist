@@ -1,11 +1,13 @@
 import React from "react";
 import Connect from "../components/Connect-wallet";
 import Donate from "../components/Donate";
+import Swap from "../components/Swap";
 const Content = () => {
   return (
     <div className="flex items-center justify-center h-screen mt-10">
       {/* <Connect /> */}
-      <Donate/>
+      {/* <Donate/> */}
+      <Swap/>
     </div>
   );
 };
