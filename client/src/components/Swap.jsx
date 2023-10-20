@@ -1,9 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faArrowDown, faArrowUp);
 const Swap = () => {
   return (
     <div className="w-[560px] h-[698px] ">
@@ -79,12 +75,48 @@ const Swap = () => {
             <div className="my-4 py-4 w-[480px] h-[100px] flex justify-center items-center ">
               <div className="  w-[48px] h-[48px] rounded-lg bg-[#3F444E] flex  justify-center items-center">
                 <div className="text-white">
-                  <FontAwesomeIcon className="" icon={["fas", "arrow-down"]} />
-                  <FontAwesomeIcon icon={["fas", "arrow-up"]} />
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.4498 6.71997L6.72974 3L3.00977 6.71997"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M6.73047 21V3"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M13.5488 17.28L17.2689 21L20.9888 17.28"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M17.2695 3V21"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </div>
               </div>
             </div>
-            <div className=" my-4py-4 w-[480px] h-[100px] rounded-lg bg-[#3F444E]"></div>
+            <div className=" my-4py-4 w-[480px] h-[100px] rounded-lg bg-[#3F444E]">
+                <p className="text-white text-lg mx-4">Receive</p>
+            </div>
             <div className=" my-4 flex justify-end py-4 gap-2 ">
               <p className="text-[#6F49FD]">1 USD = 23.345 VND</p>
               <div className="flex justify-center items-center">
