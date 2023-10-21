@@ -14,7 +14,7 @@ const Swap = () => {
         </div>
       </div>
       <div>
-        <div className="w-[560px] h-[610px] bg-[#2F3338] rounded-3xl mt-7 flex justify-center">
+        <div className="w-[560px] h-[610px] bg-[#2F3338] relative rounded-3xl mt-7 flex justify-center">
           <div className=" text-white w-[480px] h-[518px] my-auto ">
             <div className="w-[480px] h-[50px] gap-20 flex justify-between items-center ">
               <p className="text-lg">Swap</p>
@@ -297,6 +297,10 @@ const Swap = () => {
                 <p className="text-white text-lg my-auto ">Swap</p>
               </div>
             </div>
+          </div>
+          <div className="w-[540px] absolute top-[270px] left-right-2 text-black flex justify-center items-center gap-20">
+            <div className="w-[220px] h-[3px] bg-[#202020] rounded-lg"></div>
+            <div className="w-[220px] h-[3px] bg-[#202020]  rounded-lg"></div>
           </div>
         </div>
       </div>

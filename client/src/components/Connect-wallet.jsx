@@ -14,7 +14,7 @@ const Connect = () => {
         </div>
       </div>
       <div>
-        <div className="w-[560px] h-[610px] bg-[#2F3338] rounded-lg mt-3 ptb-5 flex justify-center">
+        <div className="w-[560px] h-[610px] bg-[#2F3338] relative rounded-3xl mt-7 flex justify-center">
           <div className=" text-white w-[480px] h-[518px] my-auto ">
             <div className="w-[480px] h-[50px] gap-20 flex justify-between items-center ">
               <p className="text-lg">Swap</p>
@@ -71,7 +71,7 @@ const Connect = () => {
                 </svg>
               </div>
             </div>
-            <div className=" my-4 py-3 px-5 w-[480px] h-[100px] rounded-lg bg-[#3F444E]">
+            <div className=" my-3 py-3 px-5 w-[480px] h-[100px] rounded-lg bg-[#3F444E]">
               <p className="text-white text-lg ">Pay</p>
               <div className=" flex justify-center">
                 <div className="w-[438px] h-[43px] flex gap-5">
@@ -155,7 +155,7 @@ const Connect = () => {
                 </div>
               </div>
             </div>
-            <div className="my-4 py-4 w-[480px] h-[100px] flex justify-center items-center ">
+            <div className=" w-[480px] h-[100px] flex justify-center items-center ">
               <div className="  w-[48px] h-[48px] rounded-lg bg-[#3F444E] flex  justify-center items-center">
                 <div className="text-white">
                   <svg
@@ -197,7 +197,7 @@ const Connect = () => {
                 </div>
               </div>
             </div>
-            <div className=" my-4 py-3 px-5 w-[480px] h-[100px] rounded-lg bg-[#3F444E]">
+            <div className=" my-3 py-3 px-5 w-[480px] h-[100px] rounded-lg bg-[#3F444E]">
               <p className="text-white text-lg ">Receive</p>
               <div className=" flex justify-center">
                 <div className="w-[438px] h-[43px] flex gap-5">
@@ -241,7 +241,7 @@ const Connect = () => {
                 </div>
               </div>
             </div>
-            <div className=" my-4 flex justify-end py-4 gap-2 ">
+            <div className=" my-3 flex justify-end py-4 gap-2 ">
               <p className="text-[#6F49FD]">1 USD = 23.345 VND</p>
               <div className="flex justify-center items-center">
                 <svg
@@ -294,9 +294,13 @@ const Connect = () => {
             </div>
             <div>
               <div className="w-[480px] h-[62px] rounded-lg bg-[#6F49FD] flex justify-center ">
-                <p className="text-white text-lg my-auto ">Swap</p>
+                <p className="text-white text-lg my-auto ">Connect Wallet</p>
               </div>
             </div>
+          </div>
+          <div className="w-[540px] absolute top-[270px] left-right-2 text-black flex justify-center items-center gap-20">
+            <div className="w-[220px] h-[3px] bg-[#202020] rounded-lg"></div>
+            <div className="w-[220px] h-[3px] bg-[#202020]  rounded-lg"></div>
           </div>
         </div>
       </div>
