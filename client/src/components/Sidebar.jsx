@@ -2,12 +2,7 @@ import { useState } from "react";
 import { PiCirclesFourDuotone, PiCaretDownBold, PiHouseFill, PiUsersBold, PiAtom, PiHandshakeFill } from "react-icons/pi";
 import { IoFileTrayOutline, IoSettingsOutline } from "react-icons/io5";
 import { BsInfoLg, BsCircleHalf } from "react-icons/bs";
-
-import Navbar from "./Navbar";
-
 import logo from "../assets/logo.svg"
-
-
 const Sidebar = () => {
     const [open, setOpen] = useState(true);
     const [submenuOpen, setSubmenuOpen] = useState(false);
@@ -73,7 +68,7 @@ const Sidebar = () => {
                     ))}
                 </ul>
             </div>
-            <Navbar />
+
            
         </div>
         
