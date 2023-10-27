@@ -5,9 +5,9 @@ import Swap from "../components/Swap";
 const Content = () => {
   return (
     <div className="flex items-center justify-center h-screen mt-10 relative ">
-      <Connect />
+      {/* <Connect /> */}
       {/* <Donate/> */}
-      {/* <Swap/> */}
+      <Swap/>
       <div className="w-[380px] h-[380px] rounded-xl bg-[#2F3338] absolute top-[10px] left-[900px] flex justify-center items-center">
         <div className=" w-[330px] h-[330px] justify-between">
           <div className="pb-4 w-[330px] h-[50px] flex justify-between items-center">
