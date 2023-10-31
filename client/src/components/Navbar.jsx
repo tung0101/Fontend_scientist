@@ -5,8 +5,8 @@ import { BiSolidBell } from "react-icons/bi";
 
 const Navbar = () => {
     return(
-        <div className="p-7 w-screen h-24 bg-[#2F3338] flex">
-        <div className="flex items-center justify-between rounded-xl  border-solid border-2 border-slate-400 w-2/5 px-2 py-2 mr-20">
+        <div className="p-7 w-500 h-24 bg-[#2F3338] flex">
+        <div className="flex items-center justify-between rounded-xl  border-solid border-2 border-slate-400 w-3/5 px-2 py-2 mr-20">
           <FiSearch className="text-white text-lg block float-left cursor-pointed" />
           <input type={"search"} placeholder="Search new project" className="text-base bg-transparent w-full text-white focus:outline-none ml-2" />
         </div>
