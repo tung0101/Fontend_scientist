@@ -16,3 +16,20 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   filter: invert(0.8);
 }
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #555555 #111111;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border-radius: 4px;
+}

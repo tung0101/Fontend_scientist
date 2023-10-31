@@ -13,6 +13,7 @@ import logo from "../assets/logo.svg";
 
 const Sidebar = () => {
   const Menus = [
+
     { title: "Home", icon: <PiHouseFill /> },
     { title: "Scientist", icon: <PiUsersBold /> },
     { title: "New Project", icon: <PiAtom /> },
@@ -35,7 +36,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="w-32 bg-[#2F3338] text-white custom-css h-[900px] px-9 pt-3 duration-300 relative">
+    <div className="w-32 bg-[#2F3338] text-white custom-css h-[707px] px-9 pt-3 duration-300 relative">
       <div className="inline-flex items-center mt-[100px]">
         <img src={logo} className="rounded cursor-pointer block float-left duration-500" />
         {/* <h1 className="text-white origin-left font-medium text-2xl pl-4 duration-300">

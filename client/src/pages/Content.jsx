@@ -4,6 +4,10 @@ import Donate from "../components/Donate";
 import Swap from "../components/Swap";
 import BlogDetail from "../components/blog-detail";
 import Index from "../components/index-user";
+import Dashboard_Scientist from "../components/DashboardScientist";
+import ListProject from "../components/ListProject";
+import DetailProject from "../components/DetailProject";
+import Progress from "../components/Progress"
 const Content = () => {
   return (
     <div className="flex items-center justify-center h-screen mt-10 relative  ">
@@ -11,7 +15,11 @@ const Content = () => {
       {/* <Donate/> */}
       {/* <Swap/> */}
       {/* <Index/> */}
-      <BlogDetail/>
+      {/* <BlogDetail/> */}
+      {/* <Dashboard_Scientist/> */}
+      {/* <ListProject/> */}
+      {/* <DetailProject/> */}
+      <Progress/>
       {/* <div className="w-[380px] h-[380px] rounded-xl bg-[#2F3338] absolute top-[10px] left-[900px] flex justify-center items-center">
         <div className=" w-[330px] h-[330px] justify-between">
           <div className="pb-4 w-[330px] h-[50px] flex justify-between items-center">
