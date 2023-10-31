@@ -54,7 +54,9 @@ const Sidebar = () => {
             <span className="text-2xl block float-left">
               {menu.icon ? menu.icon : <PiCirclesFourDuotone />}
             </span>
+            
             <span className="text-base font-medium flex-1"></span>
+            
             {menu.submenu && <PiCaretDownBold />}
             {menu.submenu && (
               <ul>
