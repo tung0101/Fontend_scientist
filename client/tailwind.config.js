@@ -1,18 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        epilogue: ['Epilogue', 'sans-serif','Quicksand'],
-      },
-      boxShadow: {
-       
+      colors: {
+        primary: {
+          // dark: "#2F3338",
+          500: "#2F3338",
+        },
       },
     },
   },
-  plugins: [],
-}
+  plugins: [require("tailwind-scrollbar")],
+};

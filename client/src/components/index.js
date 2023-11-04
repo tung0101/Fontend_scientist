@@ -1,2 +1,3 @@
-export { default as Sidebar } from './Sidebar';
-export { default as Navbar } from './Navbar';
+import { ProductsChart } from "./Chart";
+
+export { ProductsChart };

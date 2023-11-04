@@ -1,35 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.custom-css {
+  /* Thuộc tính CSS tùy chỉnh ở đây */
+  /* Ví dụ: */
 
-.linear-gradient {
-  background: linear-gradient(
-    179.14deg,
-    rgba(32, 18, 63, 0) -7.14%,
-    #000000 87.01%
-  );
+  height: 900px;
+  /* Thêm bất kỳ thuộc tính CSS nào bạn muốn */
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
-  cursor: pointer;
-  filter: invert(0.8);
-}
-.custom-scrollbar {
-  scrollbar-width: thin;
-  scrollbar-color: #555555 #111111;
-}
-
-.custom-scrollbar::-webkit-scrollbar {
-  width: 8px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: #111111;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #555555;
-  border-radius: 4px;
+.active {
+  display: block;
+  border-radius: 12px;
+  background: var(--Hover, #3F444E);
+  width: 100% !important;
 }
